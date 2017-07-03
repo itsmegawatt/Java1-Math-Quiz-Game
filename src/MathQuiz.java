@@ -3,7 +3,7 @@
 public class MathQuiz {
 
 	public static void main(String[] args) {
-		AdditionProblem test = new AdditionProblem();
+		DivisionProblem test = new DivisionProblem();
 		System.out.println(test.getProblem());
 		int answer = TextIO.getInt();
 		if (answer == test.getAnswer()) {

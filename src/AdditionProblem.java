@@ -9,7 +9,7 @@ public class AdditionProblem {
 	}
 	
 	public String getProblem() {
-		return "Compute the sum: " + x + " + " + y;
+		return "Compute the following: " + x + " + " + y;
 	}
 	
 	public int getAnswer() {
