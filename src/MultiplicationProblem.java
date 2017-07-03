@@ -1,6 +1,4 @@
-public class MultiplicationProblem {
-	
-	private int x, y, answer;
+public class MultiplicationProblem extends Problem {
 	
 	public MultiplicationProblem() {
 		x = (int)(12 * Math.random());
@@ -10,10 +8,6 @@ public class MultiplicationProblem {
 	
 	public String getProblem(){
 		return "Compute the following: " + x + " * " + y;
-	}
-	
-	public int getAnswer() {
-		return answer;
 	}
 	
 }

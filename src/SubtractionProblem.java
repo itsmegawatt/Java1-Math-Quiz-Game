@@ -1,8 +1,6 @@
 
-public class SubtractionProblem {
+public class SubtractionProblem extends Problem {
 
-	private int x, y, answer;
-	
 	public SubtractionProblem() {
 		x = (int)(10+40*Math.random());
 		y = (int)(10*Math.random());
@@ -11,10 +9,6 @@ public class SubtractionProblem {
 	
 	public String getProblem() {
 		return "Compute the following: " + x + " - " + y;
-	}
-	
-	public int getAnswer() {
-		return answer;
 	}
 	
 }

@@ -1,6 +1,5 @@
 
-public class AdditionProblem {
-	private int x, y, answer;
+public class AdditionProblem extends Problem {
 	
 	public AdditionProblem() {
 		x = (int)(10+40*Math.random());
@@ -12,8 +11,5 @@ public class AdditionProblem {
 		return "Compute the following: " + x + " + " + y;
 	}
 	
-	public int getAnswer() {
-		return answer;
-	}
 	
 }

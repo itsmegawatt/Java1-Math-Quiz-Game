@@ -1,6 +1,4 @@
-public class DivisionProblem {
-	
-	private int x, y, answer;
+public class DivisionProblem extends Problem {
 	
 	public DivisionProblem() {
 		x = (int)(10*Math.random());
@@ -10,10 +8,6 @@ public class DivisionProblem {
 	
 	public String getProblem() {
 		return "Compute the following: " + y + " / " + x;
-	}
-	
-	public int getAnswer() {
-		return answer;
 	}
 	
 }
